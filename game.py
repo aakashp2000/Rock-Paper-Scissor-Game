@@ -1,7 +1,7 @@
 import random
 import math
 def play():
-    user= input("What is you choice 'r' for rock, 's' for scissors, p for paper\n")
+    user= input("What is your choice? 'r' for rock, 's' for scissors, p for paper\n")
     user=user.lower()
     computer=random.choice(['r','p','s'])
     if user==computer:
